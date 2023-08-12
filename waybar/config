@@ -1,0 +1,59 @@
+{
+    "height": 30,
+    "spacing": 10,
+    "width": 1904,
+    "modules-left": ["custom/arch-logo", "clock", "sway/workspaces", "sway/mode", "sway/scratchpad"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "battery"],
+    
+    "custom/arch-logo": {
+        "format": "󰣇"
+    },
+
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+
+    "sway/scratchpad": {
+        "format": "{icon} {count}",
+        "format-icons": ["", "󱂬"],
+        "show-empty": false
+    },
+
+    "sway/window": {
+	"format": "{app_id}",
+	"rewrite": {
+	    "foot": " ",
+	    "firefox": "󰈹 "
+	}
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-icons": ["󰖁", "󰕿", "󰖀", "󰕾"],
+        "on-click": "pauvcontrol"
+    },
+
+    "network": {
+        "format-wifi": "{essid} {icon} - {signalStrength}%",
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+    },
+
+    "cpu": {
+        "format": "{usage}% "
+    },
+
+    "memory": {
+        "format": "{}% "
+    },
+
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "clock": {
+        "timezone": "Europe/Zurich",
+        "format-alt": "{:%Y-%m-%d}"
+    }
+}
