@@ -26,7 +26,8 @@ input * {
 	xkb_variant "intl"
 }
 
-#pen input
+#touch and pen input
+input "1386:18720:Wacom_HID_4920_Finger" map_to_output eDP-1
 input "1386:18720:Wacom_HID_4920_Pen" map_to_output eDP-1
 
 #Background
