@@ -20,6 +20,15 @@ client.unfocused #6c7086 #6c7086 #11111b #6c7086
 #caps lock is an additional control
 input "type:keyboard" xkb_options caps:ctrl_modifier
 
+#keymap: US-International
+input * {
+	xkb_layout "us"
+	xkb_variant "intl"
+}
+
+#pen input
+input "1386:18720:Wacom_HID_4920_Pen" map_to_output eDP-1
+
 #Background
 output * bg /home/user1/pictures/sunset-draw-dark.jpg fill #1e1e2e
 
