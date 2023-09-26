@@ -4,9 +4,28 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+### Variables
+#
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+# Home row direction keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+# Your preferred terminal emulator
+set $term foot
+# Your preferred application launcher
+# Note: pass the final command to swaymsg so that the resulting window can be opened
+# on the original workspace that the command was run on.
+set $menu fuzzel
+
 ###Own Config###
 #font for title bars
 font pango: Hack Nerd Font 12
+
+#wlogout
+bindsym $mod+p exec wlogout
 
 #gaps
 gaps inner 8px
@@ -38,25 +57,7 @@ output "Lenovo Group Limited LEN LT2223pwC VN-761505" bg /home/user1/pictures/au
 blur enable
 blur_xray disable
 corner_radius 10
-
 ###/Own Config###
-
-
-### Variables
-#
-# Logo key. Use Mod1 for Alt.
-set $mod Mod4
-# Home row direction keys, like vim
-set $left h
-set $down j
-set $up k
-set $right l
-# Your preferred terminal emulator
-set $term foot
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
-set $menu fuzzel
 
 ### Output configuration
 #
