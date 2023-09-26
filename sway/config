@@ -32,8 +32,14 @@ input "1386:18720:Wacom_HID_4920_Pen" map_to_output eDP-1
 
 #Background
 output * bg /home/user1/pictures/sunset-draw-dark.jpg fill #1e1e2e
+output "Lenovo Group Limited LEN LT2223pwC VN-761505" bg /home/user1/pictures/aurora-borealis-1.jpg fill #1e1e2e
 
-###Own Config###
+###SwayFX###
+blur enable
+blur_xray disable
+corner_radius 10
+
+###/Own Config###
 
 
 ### Variables
