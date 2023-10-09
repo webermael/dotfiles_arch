@@ -10,6 +10,9 @@ alias grep='grep --color=auto'
 #Custom NetworkManager command - Network Specific !
 alias connect-internet='nmcli d wifi connect UPC46D2D4B password acmy2y4URwbs'
 
+#man pages with neovim
+export MANPAGER="nvim +Man!"
+
 #Custom Line
 PS1='\n[\t]: \u@\h > \w\n> '
 #PS1='[\u@\h \W]\$ '
