@@ -1,0 +1,7 @@
+bluetoothctl #submenu to connect to bluetooth
+connect-internet #alias (s. .basrc) to connect to the Internet
+wl-copy, wl-paste #system clipboard manager (s. man wl-clipboard)
+imv #image viewer (s. man imv)
+ip addr # IP Adress 
+sudo nmap -sn <IP Adreess (^)> # find all devices in the network -> for example MyCloud
+ssh -oHostKeyAlgorithms=+ssh-dss root@192.168.0.188 # ssh into WD MyCloud
