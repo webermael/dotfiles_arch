@@ -54,6 +54,7 @@
 
     "clock": {
         "timezone": "Europe/Zurich",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d}",
+	"tooltip-format": "<small>{calendar}</small>",
     }
 }
