@@ -18,7 +18,7 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show run
+set $menu rofi -show combi -combi-modes "window,drun,ssh" -theme Arc-Dark -font "hack 15" -modes combi
 
 ###Own Config###
 #font for title bars
@@ -29,6 +29,9 @@ bindsym $mod+z exec qutebrowser
 
 #wlogout
 bindsym $mod+p exec wlogout
+
+#emacs daemon on login
+exec emacs --daemon
 
 #gaps
 gaps inner 3

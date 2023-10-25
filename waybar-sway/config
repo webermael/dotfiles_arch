@@ -17,7 +17,9 @@
     "sway/scratchpad": {
         "format": "{icon} {count}",
         "format-icons": ["", "󱂬"],
-        "show-empty": false
+        "show-empty": false,
+        "tooltip": true,
+        "tooltip-format": "{title}"
     },
 
     "sway/window": {

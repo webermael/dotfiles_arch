@@ -8,8 +8,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 #Custom NetworkManager command - Network Specific !
-alias connect-internet='nmcli d wifi connect UPC46D2D4B password acmy2y4URwbs'
-alias connect-network='nmcli d wifi connect NETGEAR password WeberWil5276'
+alias connect-internet='nmcli d wifi && nmcli d wifi connect UPC46D2D4B password acmy2y4URwbs'
+alias connect-network='nmcli d wifi && nmcli d wifi connect NETGEAR password WeberWil5276'
 
 #man pages with neovim
 export MANPAGER="nvim +Man!"
