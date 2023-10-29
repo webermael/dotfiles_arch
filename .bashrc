@@ -21,5 +21,8 @@ PS1='\n[\t]: \u@\h > \w\n> '
 #Neofetch in Small when Terminal is started
 neofetch --ascii_distro Arch_small --color_blocks off --disable model kernel packages resolution theme icons cpu gpu memory | lolcat
 
+#doom sync
+export PATH="$HOME/.config/emacs/bin:$PATH"
+
 #Periodic Table script
-export PATH=~/Downloads/pt.sh:$PATH
+export PATH="$HOME/Downloads/pt.sh:$PATH"
