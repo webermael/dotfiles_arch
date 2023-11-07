@@ -51,12 +51,20 @@ input * {
 	xkb_variant "intl"
 }
 
+#input: Touchpad tap and natural scroll
+input  1739:52596:SYNA30B6:00_06CB:CD74_Touchpad {
+    tap enabled
+    natural_scroll enabled
+}
+
 #touch and pen input
 input "1386:18720:Wacom_HID_4920_Finger" map_to_output eDP-1
 input "1386:18720:Wacom_HID_4920_Pen" map_to_output eDP-1
 
 #Background
-output * bg ~/pictures/sunset-draw-dark.jpg fill #1e1e2e
+output * bg ~/pictures/noPlace.jpg fill #1e1e2e
+#output * bg ~/pictures/sunset-draw-dark.jpg fill #1e1e2e
+#output * bg ~/pictures/mercedes.jpg fill #1e1e2e
 #output "Lenovo Group Limited LEN LT2223pwC VN-761505" bg ~/pictures/aurora-borealis-1.jpg fill #1e1e2e
 #output "Lenovo Group Limited LEN LT2223pwC VN-761505" bg ~/pictures/dark-dock.jpg fill #1e1e2e
 #output "Lenovo Group Limited LEN LT2223pwC VN-761505" bg ~/pictures/desert.jpg fill #1e1e2e

@@ -23,7 +23,7 @@
     },
 
     "sway/window": {
-	"format": "{app_id}",
+	"format": "{title}",
 	"rewrite": {
 	    "foot": " ",
 	    "firefox": "󰈹 "
@@ -55,7 +55,6 @@
     },
 
     "clock": {
-        "timezone": "Europe/Zurich",
         "format-alt": "{:%Y-%m-%d}",
 	"tooltip-format": "<small>{calendar}</small>",
     }
