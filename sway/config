@@ -32,6 +32,8 @@ bindsym $mod+p exec wlogout
 
 #emacs daemon on login
 exec emacs --daemon
+#dunst (notifications) on login
+exec dunst
 
 #gaps
 gaps inner 3
